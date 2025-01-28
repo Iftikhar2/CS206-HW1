@@ -11,7 +11,7 @@ def checkPrime(num: int):
                 return(str(num) + " is not a prime number")
         else:
             return(str(num) + " is a prime number")
-    # All negative numbers, 0 and 1 are not primes
+    # Numbers less than 2 are not primes
     else:
         return(str(num) + " is not a prime number")
 
